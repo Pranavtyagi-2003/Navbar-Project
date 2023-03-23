@@ -1,10 +1,12 @@
 import './App.css';
 import Navbar from './Components/Navbar';
+import ReNavbar from './ReNavbar/ReNavbar'
 
 function App() {
   return (
     <div className="App">
-     <Navbar/>
+     {/* <Navbar/> */}
+     <ReNavbar/>
     </div>
   );
 }
